@@ -82,10 +82,17 @@ Install dependencies
 npm install
 ```
 
-Create `.env` file
+
+
+# Environment Variables
+
+Create a `.env` file in the backend folder.
+
+Example:
 
 ```
-cp .env.example .env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string/task-manager
 ```
 
 Start backend server
@@ -170,16 +177,7 @@ GET /api/tasks/stats
 
 ---
 
-# Environment Variables
 
-Create a `.env` file in the backend folder.
-
-Example:
-
-```
-PORT=5000
-MONGO_URI=your_mongodb_connection_string/task-manager
-```
 
 ---
 
