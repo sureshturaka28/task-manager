@@ -178,7 +178,7 @@ Example:
 
 ```
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection_string/task-manager
 ```
 
 ---
